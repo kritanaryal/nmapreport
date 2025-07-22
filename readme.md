@@ -64,3 +64,12 @@ namp -p 22,80,443 -sV -O --script vuln 192.168.1.1
 
     Read more : [Click Here](https://docs.google.com/document/d/1mEeYMK8CmS_thdsDuZGnv9lJTUruS9sf3uhuvmy9YRw/edit?usp=sharing)
 
+
+    ```bash
+       nmap -A 192.168.1.1
+    ```
+
+    - -A :  "Aggressive Scan" ( The -A flag in Nmap activates multiple advanced scanning features at once )
+
+    
+
