@@ -96,13 +96,13 @@ Scans only the most common ports for quick results.<br>
  ``` nmap -F 192.168.56.102```
 
  
-![FastScan](screenshots/Fast.jpeg)
+![FastScan](screenshots/FastScan.jpeg)
  
 ### Step 9: Specific Ports Scan
 Scans only selected ports.<br>
 ``` nmap -p 21,22,80 192.168.56.102 ```
 
-![SpecificPortScan](screenshots/SpecificPOrts.jpeg)
+![SpecificPortScan](screenshots/SpecificPorts.jpeg)
 
 
 ---
