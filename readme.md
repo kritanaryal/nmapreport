@@ -79,3 +79,16 @@ Scans only the most common ports for quick results.
 ### 9. Specific Ports Scan
 Scans only selected ports.
 
+## ⚙️ Methodology
+
+1. Verified connectivity using ping.
+2. Performed host discovery to identify active systems.
+3. Conducted multiple scan types:
+   - SYN scan for stealth scanning
+   - Version detection to identify services
+   - OS detection for system identification
+4. Executed aggressive scan for detailed enumeration.
+5. Performed vulnerability scanning using NSE scripts.
+6. Saved outputs using:
+   nmap -A 192.168.56.102 -oN scans/scan_results.txt
+   
